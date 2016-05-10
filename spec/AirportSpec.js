@@ -7,6 +7,6 @@ describe("Airport", function() {
 	});
 
 	it("has no planes by default", function(){
-		expect(airport.planes()).toEqual([])
+		expect(airport.planes()).toEqual([]);
 	});
 });

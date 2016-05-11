@@ -29,7 +29,7 @@ describe('Airport', function(){
 });
   describe('under stormy conditions',function(){
     beforeEach(function(){
-      weather.isStormy.and.returnValue(true);
+      airport._weather.isStormy.and.returnValue(true);
     });
 
   it('does not clear planes for takeoff', function (){

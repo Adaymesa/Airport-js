@@ -14,7 +14,7 @@ describe('plane', function() {
 
 	it('can take off', function() {
 		plane.land(airport);
-		plane.takeOff(airport);
+		plane.takeOff();
 		expect(airport.clearForTakeOff).toHaveBeenCalledWith(plane);
 	});
 });
